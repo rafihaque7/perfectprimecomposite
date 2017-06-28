@@ -1,0 +1,11 @@
+What does it do?
+This program will print out the first 100,000 prime, composite, and perfect numbers.
+
+How do I compile it?
+Type "make" to compile the program, and "make clean" to clean the object and program files.
+
+bv.c To define the methods that are declared in bv.h
+bv.h declares bitVector methods
+sieve.c shifts the bit vector. if it is prime then the bitvector is 1
+sieve.h declare sieve methods
+parfait.c is the file to store the main function
